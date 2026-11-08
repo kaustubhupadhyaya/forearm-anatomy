@@ -14,6 +14,7 @@ Interactive single-page guide to forearm anatomy and hypertrophy. It ranks 20 fo
 - `scripts/generate_segment.py` - injects a long-form scientific section into an older HTML revision. It expects a marker that the current trimmed HTML does not contain, so it exits with `Target marker not found`. Keep it for provenance.
 - `tests/static_check.py` - checks assets, image references, HTML table counts and JSON consistency. No browser needed.
 - `tests/check.py` - Playwright regression suite. Opens the HTML and checks the four views, hover and click behaviour, labels, leader lines and artwork.
+- `DATA-NOTES.md` - the three unreconciled volume totals and the missing volume/PCSA citations.
 
 ## Data fields
 
@@ -55,6 +56,8 @@ On Windows the script uses the installed Chrome channel by default. Set `PLAYWRI
 CI runs both checks on every push and pull request.
 
 ## Data caveats
+
+The full record is in `DATA-NOTES.md`. In short:
 
 - The volume and PCSA figures still need textbook citations. They are provisional working values, not established measurements. Do not cite them as sourced facts until each value is tied to a page or table.
 - Three volume totals appear in the source: 486.9 cm3 (sum of the 20-row table, and the basis for its percentages), 438.7 cm3 (page header and video cards), and 447.8 cm3 (sum of the 12 grouped records). They do not reconcile. The grouped percentages also sum to 102.2%. Treat all of these as provisional.

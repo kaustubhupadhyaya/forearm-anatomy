@@ -1,5 +1,7 @@
 # References and provenance
 
+The three unreconciled volume totals (486.9, 438.7, 447.8 cm3) and the missing volume/PCSA citations are documented in `DATA-NOTES.md`.
+
 ## What the source cites
 
 The current `forearm_mass_anatomy.html` has no formal citations. The long-form scientific section in `scripts/generate_segment.py` contains two in-text citations for forearm architectural data:
