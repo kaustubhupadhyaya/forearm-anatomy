@@ -1,0 +1,147 @@
+{
+  "title": "Detailed exercise mapping from generate_artifact.py",
+  "source": "scripts/generate_artifact.py (exercises_master)",
+  "count": 8,
+  "exercises": [
+    {
+      "id": "reverse_curl",
+      "name": "Heavy Reverse Barbell / EZ-Bar Curl",
+      "category": "Compound Elbow Flexion",
+      "tier": "Tier 1 Priority",
+      "primary_muscles": [
+        "Brachioradialis",
+        "ECRL",
+        "ECRB"
+      ],
+      "secondary_muscles": [
+        "Pronator Teres",
+        "Extensor Digitorum",
+        "Brachialis"
+      ],
+      "biomechanics": "Pronated forearm position wraps biceps tendon around radius, mechanically disadvantageous for biceps. Brachioradialis moment arm peaks at 90-100 deg flexion (5.0-7.5 cm). Requires static isometric contraction of ECRL/ECRB to prevent wrist collapse into flexion.",
+      "roger_c_protocol": "Roger C curls 60 kg for 4 sets of 12 reps. Notes that the static extensor hold creates dense, thick wrist tendons and forearm ridges.",
+      "optimal_prescription": "3 - 4 sets of 8 - 12 reps, 2.5 min rest, strict 2-second eccentric phase."
+    },
+    {
+      "id": "wrist_curl",
+      "name": "Heavy Finger-Roll Barbell Wrist Curl",
+      "category": "Dynamic Wrist & Finger Flexion",
+      "tier": "Tier 1 Priority",
+      "primary_muscles": [
+        "Flexor Digitorum Profundus (FDP)",
+        "Flexor Digitorum Superficialis (FDS)",
+        "Flexor Carpi Ulnaris (FCU)"
+      ],
+      "secondary_muscles": [
+        "Flexor Carpi Radialis (FCR)",
+        "Pronator Teres"
+      ],
+      "biomechanics": "Rolling bar down to distal phalanges places FDP and FDS into extreme stretch. Initiating movement with finger flexion engages high-PCSA digit flexors (25.3 cm2 combined). FCU provides peak wrist flexion torque with 1.8 cm moment arm via pisiform sesamoid.",
+      "roger_c_protocol": "Roger C works up to 50 kg wrist curls for 6 reps. Attributes the outward popping of palmar wrist tendons and massive medial forearm belly directly to this movement.",
+      "optimal_prescription": "4 sets of 10 - 15 reps, full range of motion from fingertips to full wrist flexion, 1-second pause at contraction."
+    },
+    {
+      "id": "reverse_wrist_curl",
+      "name": "Reverse Wrist Curl / Forearm Finisher (Wrist Extension)",
+      "category": "Isolated Wrist Extension",
+      "tier": "Tier 2 Priority",
+      "primary_muscles": [
+        "ECRB",
+        "ECRL",
+        "Extensor Digitorum (ED)"
+      ],
+      "secondary_muscles": [
+        "Extensor Carpi Ulnaris (ECU)",
+        "Extensor Pollicis Longus"
+      ],
+      "biomechanics": "Pure sagittal extension of carpus against gravity or cable vector. ECRB provides central line of pull. Essential for building the visible posterior 'piano strings' and counteracting hyper-toned flexors.",
+      "roger_c_protocol": "Roger C recommends isolation wrist extensions or the 'Forearm Finisher' tool to create deep extensor striations and protect against wrist flexion imbalance.",
+      "optimal_prescription": "3 - 4 sets of 15 - 20 reps with light-to-moderate load or cable constant tension."
+    },
+    {
+      "id": "pronation_strap",
+      "name": "Arm Wrestling Strap Pronation Drill",
+      "category": "Rotational Joint Torque",
+      "tier": "Tier 2 Priority",
+      "primary_muscles": [
+        "Pronator Teres (PT)",
+        "Pronator Quadratus (PQ)"
+      ],
+      "secondary_muscles": [
+        "Brachioradialis",
+        "Flexor Carpi Radialis"
+      ],
+      "biomechanics": "Strap routes across dorsal hand into thumb crease, applying external supination torque. Pronator Teres operates at maximal mechanical leverage with elbow at 90 deg flexion.",
+      "roger_c_protocol": "Roger C used 5 sets of 60 reps with 10 kg strap daily for 300+ days. Notes that high-rep tensile loading drove connective tissue, bone remodeling, and tendon thickening.",
+      "optimal_prescription": "Hypertrophy mode: 3 - 4 sets of 12 - 15 reps; Tendon conditioning mode: 3 sets of 30 - 50 reps with controlled cadence."
+    },
+    {
+      "id": "rising_strap",
+      "name": "Rising / Radial Deviation Strap Drill",
+      "category": "Frontal Plane Abduction",
+      "tier": "Tier 2 Priority",
+      "primary_muscles": [
+        "ECRL",
+        "ECRB",
+        "Abductor Pollicis Longus (APL)",
+        "Extensor Pollicis Brevis (EPB)"
+      ],
+      "secondary_muscles": [
+        "Flexor Carpi Radialis"
+      ],
+      "biomechanics": "Applies downward ulnar deviation torque across the index knuckle. ECRL and ECRB fire to elevate the wrist vertically in neutral plane, thickening the radial styloid region.",
+      "roger_c_protocol": "Roger C paired 5 sets of 60 reps rising with pronation daily. Emphasizes that this movement attacks the joint structure and radial tendon insertion directly.",
+      "optimal_prescription": "3 - 4 sets of 15 - 20 reps or loaded static holds with judo belt/strap."
+    },
+    {
+      "id": "supination_antagonist",
+      "name": "Resisted Supination (Antagonist Balancer)",
+      "category": "Rotational Joint Torque",
+      "tier": "Tier 3 Priority (Mandatory for Joint Health)",
+      "primary_muscles": [
+        "Supinator",
+        "Biceps Brachii"
+      ],
+      "secondary_muscles": [
+        "ECRL"
+      ],
+      "biomechanics": "Isolates the deep supinator muscle. Crucial antagonist to Pronator Teres to prevent medial epicondylitis (golfer's elbow) and restore normal radioulnar arthrokinematics.",
+      "roger_c_protocol": "Roger C admits completely ignoring supination for months, resulting in severe elbow pain. Added band supination to eliminate pain and restore hook capability.",
+      "optimal_prescription": "2 - 3 sets of 15 - 20 reps with elastic band or offset dumbbell 2-3x per week."
+    },
+    {
+      "id": "ulnar_deviation",
+      "name": "Ulnar Deviation Levering (Antagonist Balancer)",
+      "category": "Frontal Plane Adduction",
+      "tier": "Tier 3 Priority (Mandatory for Joint Health)",
+      "primary_muscles": [
+        "Flexor Carpi Ulnaris (FCU)",
+        "Extensor Carpi Ulnaris (ECU)"
+      ],
+      "secondary_muscles": [
+        "FDP"
+      ],
+      "biomechanics": "Antagonist movement to rising. Clamps FCU and ECU synchronously, stabilizing the triangular fibrocartilage complex (TFCC) on the ulnar side of the wrist.",
+      "roger_c_protocol": "Prescribed alongside supination to counter the 60-rep rising drills and balance the wrist circumference symmetrically.",
+      "optimal_prescription": "2 - 3 sets of 15 - 20 reps with light lever or band."
+    },
+    {
+      "id": "fat_grip_holds",
+      "name": "Axle / Fat Grip Dead Hangs & Holds",
+      "category": "Isometric Support & Crush Grip",
+      "tier": "Tier 1 Priority",
+      "primary_muscles": [
+        "Flexor Digitorum Profundus",
+        "Flexor Digitorum Superficialis",
+        "Flexor Pollicis Longus"
+      ],
+      "secondary_muscles": [
+        "Extensor Carpi Radialis (stabilizing)",
+        "Brachioradialis"
+      ],
+      "biomechanics": "Large diameter (2 to 2.5 inches) forces hand open, preventing passive mechanical finger locking. Requires continuous maximal voluntary contraction of FDP and FDS muscle bellies.",
+      "roger_c_protocol": "Recommends fat grips on dumbbells and barbells as an essential base for hand and wrist adaptation.",
+      "optimal_prescription": "3 - 4 sets of 20 - 40 second holds to near failure."
+    }
+  ]
+}

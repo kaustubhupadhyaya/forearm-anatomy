@@ -1,0 +1,517 @@
+{
+  "title": "Forearm muscles used by forearm_mass_anatomy.html",
+  "source": "forearm_mass_anatomy.html (M, NOTES and EX arrays)",
+  "units": {
+    "volume": "cm3",
+    "volume_pct": "percent of the 20-row table total",
+    "pcsa": "cm2",
+    "fiber_length": "cm",
+    "pennation": "degrees",
+    "moment_arm": "cm"
+  },
+  "count": 20,
+  "totals": {
+    "volume_cm3": 486.9,
+    "volume_pct": 99.8,
+    "pcsa_cm2": 96.7,
+    "volume_percent_basis_cm3": 486.9
+  },
+  "muscles": [
+    {
+      "rank": 1,
+      "name": "Brachioradialis",
+      "compartment": "Lateral - Superficial",
+      "volume_cm3": 65.4,
+      "volume_pct": 13.4,
+      "pcsa_cm2": 5.2,
+      "fiber_length_cm": 17.0,
+      "pennation_deg": 2.0,
+      "moment_arm": "5.0-7.5 cm elbow flexion",
+      "score": 9.8,
+      "tier": 1,
+      "color": "#ef4444",
+      "id": "brachioradialis",
+      "notes": "Largest single forearm muscle. Its belly forms the outer upper-forearm sweep.",
+      "exercises": [
+        {
+          "name": "Reverse Barbell Curl",
+          "impact": "Primary"
+        },
+        {
+          "name": "Dumbbell Hammer Curl",
+          "impact": "Primary"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Flexor Digitorum Profundus (FDP)",
+      "compartment": "Anterior - Deep",
+      "volume_cm3": 57.8,
+      "volume_pct": 11.9,
+      "pcsa_cm2": 14.5,
+      "fiber_length_cm": 4.5,
+      "pennation_deg": 9.0,
+      "moment_arm": "1.2-1.4 cm DIP/PIP flexion",
+      "score": 9.6,
+      "tier": 1,
+      "color": "#f97316",
+      "id": "flexor_digitorum_profundus_fdp",
+      "notes": "Highest PCSA in the forearm; the engine of crush grip and palmar thickness.",
+      "exercises": [
+        {
+          "name": "Finger-Roll Wrist Curl",
+          "impact": "Primary"
+        },
+        {
+          "name": "Fat Grip Holds",
+          "impact": "Primary"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Flexor Digitorum Superficialis (FDS)",
+      "compartment": "Anterior - Intermediate",
+      "volume_cm3": 45.9,
+      "volume_pct": 9.4,
+      "pcsa_cm2": 10.8,
+      "fiber_length_cm": 5.0,
+      "pennation_deg": 7.0,
+      "moment_arm": "1.4 cm PIP flexion",
+      "score": 9.3,
+      "tier": 1,
+      "color": "#f59e0b",
+      "id": "flexor_digitorum_superficialis_fds",
+      "notes": "Sits under the superficial flexors and pushes them outward.",
+      "exercises": [
+        {
+          "name": "Heavy Barbell Wrist Curl",
+          "impact": "Primary"
+        },
+        {
+          "name": "Thick Bar Hangs",
+          "impact": "Primary"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Extensor Carpi Radialis Longus (ECRL)",
+      "compartment": "Lateral - Superficial",
+      "volume_cm3": 38.2,
+      "volume_pct": 7.8,
+      "pcsa_cm2": 4.5,
+      "fiber_length_cm": 9.5,
+      "pennation_deg": 5.0,
+      "moment_arm": "1.5 ext / 1.8 cm radial",
+      "score": 8.6,
+      "tier": 1,
+      "color": "#10b981",
+      "id": "extensor_carpi_radialis_longus_ecrl",
+      "notes": "Upper outer ridge beside the brachioradialis, visible in short sleeves.",
+      "exercises": [
+        {
+          "name": "Reverse Curl isometric hold",
+          "impact": "Primary"
+        },
+        {
+          "name": "Rising Drill",
+          "impact": "Primary"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Flexor Carpi Ulnaris (FCU)",
+      "compartment": "Anterior - Superficial",
+      "volume_cm3": 37.1,
+      "volume_pct": 7.6,
+      "pcsa_cm2": 7.9,
+      "fiber_length_cm": 5.2,
+      "pennation_deg": 14.0,
+      "moment_arm": "1.8 cm via pisiform",
+      "score": 8.9,
+      "tier": 1,
+      "color": "#06b6d4",
+      "id": "flexor_carpi_ulnaris_fcu",
+      "notes": "Largest PCSA of the wrist-only flexors; forms the medial ridge.",
+      "exercises": [
+        {
+          "name": "Seated Barbell Wrist Curl",
+          "impact": "Primary"
+        },
+        {
+          "name": "Ulnar Deviation Lever",
+          "impact": "Primary"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Extensor Digitorum (ED)",
+      "compartment": "Posterior - Superficial",
+      "volume_cm3": 34.2,
+      "volume_pct": 7.0,
+      "pcsa_cm2": 6.2,
+      "fiber_length_cm": 6.2,
+      "pennation_deg": 6.0,
+      "moment_arm": "1.3 cm wrist and digit extension",
+      "score": 7.9,
+      "tier": 2,
+      "color": "#3b82f6",
+      "id": "extensor_digitorum_ed",
+      "notes": "Fills the dorsal centre and gives the back of the forearm its roundness.",
+      "exercises": [
+        {
+          "name": "Reverse Wrist Curl",
+          "impact": "Primary"
+        },
+        {
+          "name": "Finger Extension Bands",
+          "impact": "Primary"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Extensor Carpi Radialis Brevis (ECRB)",
+      "compartment": "Lateral - Superficial",
+      "volume_cm3": 32.8,
+      "volume_pct": 6.7,
+      "pcsa_cm2": 5.8,
+      "fiber_length_cm": 6.0,
+      "pennation_deg": 9.0,
+      "moment_arm": "1.6 cm central wrist extension",
+      "score": 8.3,
+      "tier": 2,
+      "color": "#6366f1",
+      "id": "extensor_carpi_radialis_brevis_ecrb",
+      "notes": "Deep and medial to ECRL; the true prime mover of pure wrist extension.",
+      "exercises": [
+        {
+          "name": "Reverse Barbell Wrist Curl",
+          "impact": "Primary"
+        },
+        {
+          "name": "Reverse Curl Hold",
+          "impact": "High"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Pronator Teres (PT)",
+      "compartment": "Anterior - Superficial",
+      "volume_cm3": 32.1,
+      "volume_pct": 6.6,
+      "pcsa_cm2": 6.8,
+      "fiber_length_cm": 5.0,
+      "pennation_deg": 10.0,
+      "moment_arm": "1.5 cm pronation",
+      "score": 7.7,
+      "tier": 2,
+      "color": "#8b5cf6",
+      "id": "pronator_teres_pt",
+      "notes": "Fills the medial cubital pocket so upper arm and forearm blend.",
+      "exercises": [
+        {
+          "name": "Strap Pronation Drill",
+          "impact": "Primary"
+        },
+        {
+          "name": "Offset Dumbbell Pronation",
+          "impact": "Primary"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Flexor Carpi Radialis (FCR)",
+      "compartment": "Anterior - Superficial",
+      "volume_cm3": 25.4,
+      "volume_pct": 5.2,
+      "pcsa_cm2": 4.7,
+      "fiber_length_cm": 5.8,
+      "pennation_deg": 7.0,
+      "moment_arm": "1.5 cm wrist flexion",
+      "score": 6.9,
+      "tier": 3,
+      "color": "#ec4899",
+      "id": "flexor_carpi_radialis_fcr",
+      "notes": "Oblique across the anterior radial forearm; its tendon is a palmar landmark.",
+      "exercises": [
+        {
+          "name": "Wrist Curl with Radial Tilt",
+          "impact": "Primary"
+        },
+        {
+          "name": "Barbell Wrist Curl",
+          "impact": "High"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Supinator",
+      "compartment": "Posterior - Deep",
+      "volume_cm3": 23.6,
+      "volume_pct": 4.8,
+      "pcsa_cm2": 4.8,
+      "fiber_length_cm": 5.1,
+      "pennation_deg": 10.0,
+      "moment_arm": "1.2 cm pure supination",
+      "score": 6.6,
+      "tier": 3,
+      "color": "#14b8a6",
+      "id": "supinator",
+      "notes": "Wraps the proximal radius; the antagonist that prevents medial elbow pain.",
+      "exercises": [
+        {
+          "name": "Sledgehammer Supination",
+          "impact": "Primary"
+        },
+        {
+          "name": "Band Supination",
+          "impact": "Primary"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Extensor Carpi Ulnaris (ECU)",
+      "compartment": "Posterior - Superficial",
+      "volume_cm3": 20.3,
+      "volume_pct": 4.2,
+      "pcsa_cm2": 4.1,
+      "fiber_length_cm": 5.5,
+      "pennation_deg": 11.0,
+      "moment_arm": "1.6 cm ulnar deviation",
+      "score": 6.3,
+      "tier": 3,
+      "color": "#a855f7",
+      "id": "extensor_carpi_ulnaris_ecu",
+      "notes": "Posterior ulnar margin; balances FCU on the ulnar border.",
+      "exercises": [
+        {
+          "name": "Ulnar Deviation Lever",
+          "impact": "Primary"
+        },
+        {
+          "name": "Reverse Curl with Ulnar Flare",
+          "impact": "High"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Flexor Pollicis Longus (FPL)",
+      "compartment": "Anterior - Deep",
+      "volume_cm3": 15.6,
+      "volume_pct": 3.2,
+      "pcsa_cm2": 4.2,
+      "fiber_length_cm": 4.2,
+      "pennation_deg": 8.0,
+      "moment_arm": "1.1 cm thumb IP flexion",
+      "score": 6.1,
+      "tier": 3,
+      "color": "#f43f5e",
+      "id": "flexor_pollicis_longus_fpl",
+      "notes": "Only flexor of the thumb tip; drives key pinch strength.",
+      "exercises": [
+        {
+          "name": "Plate Pinch Holds",
+          "impact": "Primary"
+        },
+        {
+          "name": "Rice Bucket Squeeze",
+          "impact": "High"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Abductor Pollicis Longus (APL)",
+      "compartment": "Posterior - Deep",
+      "volume_cm3": 14.1,
+      "volume_pct": 2.9,
+      "pcsa_cm2": 3.5,
+      "fiber_length_cm": 4.3,
+      "pennation_deg": 12.0,
+      "moment_arm": "1.2 cm thumb abduction",
+      "score": 5.8,
+      "tier": 3,
+      "color": "#eab308",
+      "id": "abductor_pollicis_longus_apl",
+      "notes": "Largest thumb outcropping; creates the ridge at the base of the thumb.",
+      "exercises": [
+        {
+          "name": "Rising Drill",
+          "impact": "Primary"
+        },
+        {
+          "name": "Thumb Abduction Lever",
+          "impact": "High"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Pronator Quadratus (PQ)",
+      "compartment": "Anterior - Deep distal",
+      "volume_cm3": 11.8,
+      "volume_pct": 2.4,
+      "pcsa_cm2": 4.2,
+      "fiber_length_cm": 3.0,
+      "pennation_deg": 5.0,
+      "moment_arm": "1.0 cm distal pronation",
+      "score": 5.5,
+      "tier": 3,
+      "color": "#ca8a04",
+      "id": "pronator_quadratus_pq",
+      "notes": "The only true muscle belly in the distal quarter, directly above the wrist.",
+      "exercises": [
+        {
+          "name": "Distal Strap Pronation",
+          "impact": "Primary"
+        },
+        {
+          "name": "Doorknob Rotation",
+          "impact": "High"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Palmaris Longus (PL)",
+      "compartment": "Anterior - Superficial",
+      "volume_cm3": 7.2,
+      "volume_pct": 1.5,
+      "pcsa_cm2": 1.6,
+      "fiber_length_cm": 5.2,
+      "pennation_deg": 4.0,
+      "moment_arm": "1.2 cm palmar tension",
+      "score": 4.2,
+      "tier": 3,
+      "color": "#cbd5e1",
+      "id": "palmaris_longus_pl",
+      "notes": "Slender, and absent in about 14% of people; minor mass contributor.",
+      "exercises": [
+        {
+          "name": "High-Rep Wrist Curl",
+          "impact": "Assist"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Extensor Pollicis Longus (EPL)",
+      "compartment": "Posterior - Deep",
+      "volume_cm3": 6.8,
+      "volume_pct": 1.4,
+      "pcsa_cm2": 1.8,
+      "fiber_length_cm": 4.8,
+      "pennation_deg": 9.0,
+      "moment_arm": "1.2 cm thumb IP extension",
+      "score": 4.0,
+      "tier": 3,
+      "color": "#d97706",
+      "id": "extensor_pollicis_longus_epl",
+      "notes": "Wraps Lister tubercle; the medial border of the anatomical snuffbox.",
+      "exercises": [
+        {
+          "name": "Resisted Thumb Extension",
+          "impact": "Assist"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Anconeus",
+      "compartment": "Posterior - Superficial",
+      "volume_cm3": 5.9,
+      "volume_pct": 1.2,
+      "pcsa_cm2": 2.5,
+      "fiber_length_cm": 2.5,
+      "pennation_deg": 15.0,
+      "moment_arm": "0.8 cm elbow extension",
+      "score": 3.8,
+      "tier": 3,
+      "color": "#64748b",
+      "id": "anconeus",
+      "notes": "Small triangular muscle at the elbow; stabilises the joint capsule.",
+      "exercises": [
+        {
+          "name": "Lockout Extensions",
+          "impact": "Stabilise"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Extensor Digiti Minimi (EDM)",
+      "compartment": "Posterior - Superficial",
+      "volume_cm3": 4.6,
+      "volume_pct": 0.9,
+      "pcsa_cm2": 1.2,
+      "fiber_length_cm": 5.0,
+      "pennation_deg": 7.0,
+      "moment_arm": "1.1 cm little finger extension",
+      "score": 3.5,
+      "tier": 3,
+      "color": "#0284c7",
+      "id": "extensor_digiti_minimi_edm",
+      "notes": "Slender slip for independent little-finger extension.",
+      "exercises": [
+        {
+          "name": "Reverse Wrist Curl",
+          "impact": "Assist"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Extensor Pollicis Brevis (EPB)",
+      "compartment": "Posterior - Deep",
+      "volume_cm3": 4.2,
+      "volume_pct": 0.9,
+      "pcsa_cm2": 1.3,
+      "fiber_length_cm": 4.0,
+      "pennation_deg": 10.0,
+      "moment_arm": "1.0 cm thumb MCP extension",
+      "score": 3.3,
+      "tier": 3,
+      "color": "#f59e0b",
+      "id": "extensor_pollicis_brevis_epb",
+      "notes": "Beside APL; forms the lateral border of the snuffbox.",
+      "exercises": [
+        {
+          "name": "Rising Drill",
+          "impact": "Assist"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Extensor Indicis (EI)",
+      "compartment": "Posterior - Deep",
+      "volume_cm3": 3.9,
+      "volume_pct": 0.8,
+      "pcsa_cm2": 1.1,
+      "fiber_length_cm": 4.4,
+      "pennation_deg": 8.0,
+      "moment_arm": "1.0 cm index extension",
+      "score": 3.1,
+      "tier": 3,
+      "color": "#9333ea",
+      "id": "extensor_indicis_ei",
+      "notes": "Deep slip allowing independent index extension.",
+      "exercises": [
+        {
+          "name": "Index Extension Drill",
+          "impact": "Assist"
+        }
+      ]
+    }
+  ]
+}
